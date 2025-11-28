@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v8/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <style>
+      .active-border {
+        border: 2px solid #805ad5;
+      }
+      .manolin {
+        background: #c2e9eb;
+        background: linear-gradient(
+          90deg,
+          rgba(194, 233, 235, 1) 0%,
+          rgba(255, 236, 235, 1) 55%
+        );
+      }
+
+      .isaaco {
+        font-family: "Roboto", sans-serif;
+      }
+      .active-border {
+        border: 2px solid #805ad5; /* Tailwind's purple-500 */
+      }
+
+      .pepelin {
+        background: #ffffff;
+        background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 1) 72%,
+          rgba(245, 242, 242, 1) 100%
+        );
+      }
+
+      .peposo {
+        background-image: url(https://img-c.udemycdn.com/notices/web_carousel_slide/image/baca98dd-2732-4f6a-bfb5-cc176a57ed7c.jpg);
+      }
+
+      .manolito {
+        font-family: Georgia;
+      }
+
+      .bg-oklch {
+        background-color: oklch(25.65% 0.0265 278.04deg);
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <title>Cursos en línea: aprende de todo y a tu propio ritmo | Udemy</title>
+  </head>
+  <body>
+    <div class="block p-0 m-0">
+      <section id="banner"></section>
+      <header class="flex items-center justify-center">
+        <div class="mx-3">
+          <a href="#">
+            <img
+              src="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg"
+              alt="logo-udemy"
+              class="w-[91px] h-[34px]"
+            />
+          </a>
+        </div>
+        <div
+          class="text-[#2a2b3f] p-4 my-5 rounded-lg text-[14px] hover:bg-[#EDE5F9] hover:text-[#6d28d2] mx-1"
+        >
+          <a href="#" class="">Explorar</a>
+        </div>
+        <div
+          class="flex items-center w-[49%] border-1 p-4 rounded-3xl border-gray-400 hover:border-[#6D28D2] hover:border-2 mx-2"
+        >
+          <span class="material-symbols-outlined text-[32px] text-gray-400"
+            >search</span
+          >
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Buscar cualquier cosa"
+            class="w-full mx-2"
+          />
+        </div>
+        <div
+          class="text-[#2a2b3f] p-4 my-5 rounded-lg text-[14px] hover:bg-[#EDE5F9] hover:text-[#6d28d2]"
+        >
+          <a href="#">Planes y Precios</a>
+        </div>
+        <div
+          class="text-[#2a2b3f] p-4 my-5 rounded-lg text-[14px] hover:bg-[#EDE5F9] hover:text-[#6d28d2]"
+        >
+          <a href="#">Udemy Business</a>
+        </div>
+        <div
+          class="text-[#2a2b3f] p-4 my-5 rounded-lg text-[14px] hover:bg-[#EDE5F9] hover:text-[#6d28d2]"
+        >
+          <a href="#">Enseña Udemy</a>
+        </div>
+        <div class="flex justify-center items-center mr-4">
+          <div class="">
+            <a href="#">
+              <span
+                class="material-symbols-outlined p-3 rounded-lg text-[14px] hover:bg-[#EDE5F9] hover:text-purple-600"
+                >shopping_cart</span
+              >
+            </a>
+          </div>
+          <div class="mx-1">
+            <a
+              href="#"
+              class="p-4 font-bold rounded-lg text-[14px] border-1 border[#6D28D2] text-[#6D28D2] hover:bg-[#EDE5F9]"
+            >
+              Iniciar sesión
+            </a>
+          </div>
+          <div class="mx-1">
+            <a
+              href="#"
+              class="p-4 font-bold rounded-lg text-[14px] text-white bg-[#6D28D2] hover:bg-[#892DE1]"
+              >Regístrate</a
+            >
+          </div>
+          <div class="mx-1">
+            <a href="#">
+              <span
+                class="material-symbols-outlined border-1 text-[#6D28D2] p-3 rounded-lg text-[14px] hover:bg-[#EDE5F9] hover:text-purple-600"
+                >globe</span
+              >
+            </a>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div class="flex items-center justify-center flex-col w-full">
+      <main
+        class="flex items-center justify-center flex-col manolito pepelin w-full"
+      >
+        <section
+          class="peposo relative w-[1314px] h-[392.5px] bg-cover bg-center"
+        >
+          <div
+            class="z-[1000] bg-white absolute bottom-[20%] left-[5%] right-[60%] top-[15%] flex items-start justify-center flex-col p-5 rounded-lg"
+          >
+            <h1 class="text-3xl font-bold">
+              Descubre tu potencial laboral en la era de la IA
+            </h1>
+            <p class="mt-[10px] mb-[30px]">
+              Sube de nivel aprendiendo sobre IA y otras habilidades de
+              vanguardia para lograr tus objetivos profesionales.
+            </p>
+            <div class="mb-[20px]">
+              <a
+                href="#"
+                class="p-4 font-bold rounded-lg text-[14px] text-white bg-[#6D28D2] hover:bg-[#892DE1]"
+                >Consigue el Plan Personal</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section class="w-[1314px]">
+          <h2 class="text-3xl font-bold mt-[3rem]">
+            ¿Todo listo para reimaginar tu carrera profesional?
+          </h2>
+          <p class="text-gray-600 text-lg mb-[2rem]">
+            Consigue las habilidades y la experiencia real que buscan los
+            empleadores con los aceleradores para carreras profesionales.
+          </p>
+
+          <div
+            class="flex items-center justify-center w-[1314px] gap-x-5 mb-[2rem]"
+          >
+            <div
+              class="p-4 border-1 rounded-lg border-gray-200 hover:bg-gray-100"
+            >
+              <img
+                src="https://s.udemycdn.com/career-academies/product-cards/career-card-fswd.png"
+                alt=""
+                class="rounded-lg"
+              />
+              <h2 class="font-semibold text-xl my-3">
+                Desarrollador full stack
+              </h2>
+              <div>
+                <ul class="flex items-center gap-x-1">
+                  <li
+                    class="m-0 p-1 text-gray-600 flex items-center justify-center border-1 rounded-lg border-gray-300 gap-x-1"
+                  >
+                    <span
+                      class="material-icons text-yellow-400"
+                      style="font-size: 16px"
+                      >star</span
+                    >
+
+                    <span class="text-xs">4,7</span>
+                  </li>
+                  <li
+                    class="m-0 p-1 text-gray-600 flex items-center justify-center border-1 rounded-lg border-gray-300"
+                  >
+                    <span class="text-xs">101K calificaciones</span>
+                  </li>
+                  <li
+                    class="m-0 p-1 text-gray-600 flex items-center justify-center border-1 rounded-lg border-gray-300"
+                  >
+                    <span class="text-xs">Horas totales: 181,1</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="p-4 border-1 rounded-lg border-gray-200 hover:bg-gray-100"
+            >
+              <img
+                src="https://s.udemycdn.com/career-academies/product-cards/career-card-digitalmarketer.png"
+                alt=""
+                class="rounded-lg"
+              />
+              <h2 class="font-semibold text-xl my-3">
+                Profesional del marketing digital
+              </h2>
+              <ul class="flex items-center gap-x-1">
+                <li
+                  class="m-0 p-1 text-gray-600 flex items-center justify-center border-1 rounded-lg border-gray-300 gap-x-1"
+                >
+                  <span
+                    class="material-icons text-yellow-400"
+                    style="font-size: 16px"
+                    >star</span
+                  >
+
+                  <span class="text-xs">4,5</span>
+                </li>
+                <li
+                  class="m-0 p-1 text-gray-600 flex items-center justify-center border-1 rounded-lg border-gray-300"
+                >
+                  <span class="text-xs">17K calificaciones</span>
+                </li>
+                <li
+                  class="m-0 p-1 text-gray-600 flex items-center justify-center border-1 rounded-lg border-gray-300"
+                >
+                  <span class="text-xs">Horas totales: 51,7</span>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="p-4 border-1 rounded-lg border-gray-200 hover:bg-gray-100"
+            >
+              <img
+                src="https://s.udemycdn.com/career-academies/product-cards/career-card-data-scientist.png"
+                alt=""
+                class="rounded-lg"
+              />
+              <h2 class="font-semibold text-xl my-3">Científico de datos</h2>
+              <ul class="flex items-center gap-x-1">
+                <li
+                  class="m-0 p-1 text-gray-600 flex items-center justify-center border-1 rounded-lg border-gray-300 gap-x-1"
+                >
+                  <span
+                    class="material-icons text-yellow-400"
+                    style="font-size: 16px"
+                    >star</span
+                  >
+
+                  <span class="text-xs">4,7</span>
+                </li>
+                <li
+                  class="m-0 p-1 text-gray-600 flex items-center justify-center border-1 rounded-lg border-gray-300"
+                >
+                  <span class="text-xs">18K calificaciones</span>
+                </li>
+                <li
+                  class="m-0 p-1 text-gray-600 flex items-center justify-center border-1 rounded-lg border-gray-300"
+                >
+                  <span class="text-xs">Horas totales: 53,6</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="mb-[3rem]">
+            <a
+              href="#"
+              class="p-3 font-bold rounded-lg text-[14px] border-1 border[#6D28D2] text-[#6D28D2] hover:bg-[#EDE5F9]"
+            >
+              Todos los aceleradores para carreras profesionales
+            </a>
+          </div>
+          <h2 class="text-3xl font-bold mt-[3rem]">
+            Todas las habilidades que necesitas en un único lugar
+          </h2>
+          <p class="text-gray-600 text-lg mb-[2rem]">
+            Desde habilidades esenciales hasta temas técnicos, Udemy respalda tu
+            desarrollo profesional.
+          </p>
+        </section>
+        <section class="flex flex-col items-center justify-center w-[1314px]">
+          <div class="flex flex-col items-center justify-center p-1">
+            <p class="text-gray-600 text-center text-lg mb-[2rem]">
+              Más de 17 000 empresas y millones de estudiantes de todo el mundo
+              confían en nosotros
+            </p>
+            <div
+              class="flex flex-wrap items-center justify-center gap-x-[80px]"
+            >
+              <img
+                src="https://cms-images.udemycdn.com/96883mtakkm8/3E0eIh3tWHNWADiHNBmW4j/3444d1a4d029f283aa7d10ccf982421e/volkswagen_logo.svg"
+                alt="Volkswagen"
+              />
+              <img
+                src="https://cms-images.udemycdn.com/96883mtakkm8/2pNyDO0KV1eHXk51HtaAAz/090fac96127d62e784df31e93735f76a/samsung_logo.svg"
+                alt="Samsung"
+              />
+              <img
+                src="https://cms-images.udemycdn.com/96883mtakkm8/3YzfvEjCAUi3bKHLW2h1h8/ec478fa1ed75f6090a7ecc9a083d80af/cisco_logo.svg"
+                alt="Cisco"
+              />
+              <img
+                src="https://cms-images.udemycdn.com/96883mtakkm8/23XnhdqwGCYUhfgIJzj3PM/77259d1ac2a7d771c4444e032ee40d9e/vimeo_logo_resized-2.svg"
+                alt="Vimeo"
+              />
+              <img
+                src="https://cms-images.udemycdn.com/96883mtakkm8/1UUVZtTGuvw23MwEnDPUr3/2683579ac045486a0aff67ce8a5eb240/procter_gamble_logo.svg"
+                alt="P&G"
+              />
+              <img
+                src="https://cms-images.udemycdn.com/96883mtakkm8/1GoAicYDYxxRPGnCpg93gi/a8b6190cc1a24e21d6226200ca488eb8/hewlett_packard_enterprise_logo.svg"
+                alt="Hewlett Packard Enterprise"
+              />
+              <img
+                src="https://cms-images.udemycdn.com/96883mtakkm8/2tQm6aYrWQzlKBQ95W00G/c7aaf002814c2cde71d411926eceaefa/citi_logo.svg"
+                alt="Citi"
+              />
+              <img
+                src="https://cms-images.udemycdn.com/96883mtakkm8/7guDRVYa2DZD0wD1SyxREP/b704dfe6b0ffb3b26253ec36b4aab505/ericsson_logo.svg"
+                alt="Ericsson"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="max-w-7xl mx-auto py-12 w-[1314px]">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+              Acelera tu crecimiento y el de tu organización
+            </h2>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+              Alcanza más rápido tus objetivos con uno de nuestros planes o
+              programas. Prueba uno gratis hoy mismo o ponte en contacto con el
+              equipo de ventas para obtener más información.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col lg:flex-row gap-6 justify-center items-stretch"
+          >
+            <div
+              class="bg-white rounded-lg shadow-lg border border-gray-200 p-8 flex flex-col items-stretch max-w-sm mx-auto"
+            >
+              <h3 class="text-2xl font-bold text-gray-700">Plan Personal</h3>
+              <p class="text-gray-500 mb-4">Para ti</p>
+              <div class="flex items-center text-gray-500 mb-8">
+                <svg
+                  class="w-5 h-5 mr-2 text-gray-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Individual
+              </div>
+              <div class="mt-auto">
+                <p class="text-2xl font-bold text-gray-800">
+                  A partir de $11.00 al mes
+                </p>
+                <p class="text-sm text-gray-500 mb-6">
+                  Facturación mensual o anual. Cancela cuando quieras.
+                </p>
+                <a
+                  href="#"
+                  class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-md flex items-center justify-center space-x-2 transition duration-300"
+                >
+                  <span>Probar gratis</span>
+                  <svg
+                    class="w-4 h-4 ml-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    ></path>
+                  </svg>
+                </a>
+                <ul class="mt-6 space-y-3">
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Acceso a más de 30 000 de los mejores cursos</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Preparación para la certificación</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Recomendaciones centradas en los objetivos</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Ejercicios de codificación basados en IA</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="bg-white rounded-lg shadow-lg border border-gray-200 p-8 flex flex-col items-stretch max-w-sm mx-auto"
+            >
+              <h3 class="text-2xl font-bold text-gray-700">Plan Team</h3>
+              <p class="text-gray-500 mb-4">Para tu equipo</p>
+              <div class="flex items-center text-gray-500 mb-8">
+                <svg
+                  class="w-5 h-5 mr-2 text-gray-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13 6a3 3 0 11-6 0 3 3 0 016 0zm-7 9a5 5 0 0110 0v2H6v-2z"
+                  ></path>
+                </svg>
+                Entre 2 y 60 personas
+              </div>
+              <div class="mt-auto">
+                <p class="text-2xl font-bold text-gray-800">
+                  $30.00 al mes por usuario
+                </p>
+                <p class="text-sm text-gray-500 mb-6">
+                  Facturación anual. Cancela cuando quieras.
+                </p>
+                <a
+                  href="#"
+                  class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-md flex items-center justify-center space-x-2 transition duration-300"
+                >
+                  <span>Probar gratis</span>
+                  <svg
+                    class="w-4 h-4 ml-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    ></path>
+                  </svg>
+                </a>
+                <ul class="mt-6 space-y-3">
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span
+                      >Acceso a más de 13 000 cursos con valoraciones
+                      excelentes</span
+                    >
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Preparación para la certificación</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Recomendaciones centradas en los objetivos</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Ejercicios de codificación basados en IA</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Análisis e informes de adopción</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="bg-white rounded-lg shadow-lg border border-gray-200 p-8 flex flex-col items-stretch max-w-sm mx-auto"
+            >
+              <h3 class="text-2xl font-bold text-gray-700">Plan Enterprise</h3>
+              <p class="text-gray-500 mb-4">Para toda tu organización</p>
+              <div class="flex items-center text-gray-500 mb-8">
+                <svg
+                  class="w-5 h-5 mr-2 text-gray-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13 6a3 3 0 11-6 0 3 3 0 016 0zm-7 9a5 5 0 0110 0v2H6v-2z"
+                  ></path>
+                </svg>
+                Más de 20 personas
+              </div>
+              <div class="mt-auto">
+                <p class="text-2xl font-bold text-gray-800">
+                  Ponte en contacto con el equipo de ventas para conocer los
+                  precios
+                </p>
+                <a
+                  href="#"
+                  class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-md flex items-center justify-center space-x-2 transition duration-300"
+                >
+                  <span>Solicitar una demostración</span>
+                  <svg
+                    class="w-4 h-4 ml-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    ></path>
+                  </svg>
+                </a>
+                <ul class="mt-6 space-y-3">
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span
+                      >Acceso a más de 90 000 cursos con valoraciones
+                      excelentes</span
+                    >
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Preparación para la certificación</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Recomendaciones centradas en los objetivos</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Ejercicios de codificación basados en IA</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Análisis y datos avanzados</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Equipo dedicado de éxito del cliente</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Colección internacional de cursos en 16 idiomas</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Contenido personalizable</span>
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span
+                      >Formación tecnológica práctica con nuestro
+                      complemento</span
+                    >
+                  </li>
+                  <li class="flex items-start text-gray-700">
+                    <span class="w-4 h-4 mt-1 mr-2 flex-shrink-0">
+                      <svg
+                        fill="#6b7280"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-green-500"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span
+                      >Servicios de implementación estratégica con nuestro
+                      complemento</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-gray-100 isaaco w-full flex flex-col items-center">
+          <div class="w-[1314px]">
+            <div class="flex flex-col lg:flex-row min-h-screen p-8 lg:p-12">
+              <div class="lg:w-1/2 p-4">
+                <h1 class="text-3xl font-bold text-gray-800 mb-6">
+                  Aprendizaje orientado a tus objetivos
+                </h1>
+
+                <div class="space-y-4">
+                  <button
+                    data-target="practica"
+                    class="w-full p-6 border rounded-lg shadow-md flex items-start text-left cursor-pointer transition-all duration-200 hover:scale-[1.02] active-border"
+                  >
+                    <div class="mr-4 mt-1">
+                      <svg
+                        class="w-8 h-8 text-purple-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.192 1.447l6.989-1.398 6.989 1.398a1 1 0 001.192-1.447l-7-14zM10 4.143l-4.22 8.44L10 13.929l4.22-8.44L10 4.143z"
+                          clip-rule="evenodd"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h2 class="text-xl font-semibold">Formación práctica</h2>
+                      <p class="text-gray-600 mt-2 text-sm">
+                        Desarrolla eficazmente tus habilidades con ejercicios de
+                        codificación, exámenes de prueba y cuestionarios basados
+                        en IA.
+                      </p>
+                    </div>
+                  </button>
+
+                  <button
+                    data-target="certificaciones"
+                    class="w-full p-6 border rounded-lg shadow-md flex items-start text-left cursor-pointer transition-all duration-200 hover:scale-[1.02]"
+                  >
+                    <div class="mr-4 mt-1">
+                      <svg
+                        class="w-8 h-8 text-gray-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 2a8 8 0 100 16 8 8 0 000-16zM5 8a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zM5 12a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z"
+                          clip-rule="evenodd"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h2 class="text-xl font-semibold">
+                        Preparación para certificaciones
+                      </h2>
+                      <p class="text-gray-600 mt-2 text-sm">
+                        Prepárate para obtener certificaciones reconocidas en el
+                        sector resolviendo desafíos reales y consigue insignias
+                        durante el proceso.
+                      </p>
+                      <span
+                        class="text-blue-500 hover:underline mt-2 inline-block text-sm"
+                        >Explore courses →</span
+                      >
+                    </div>
+                  </button>
+
+                  <button
+                    data-target="datos"
+                    class="w-full p-6 border rounded-lg shadow-md flex items-start text-left cursor-pointer transition-all duration-200 hover:scale-[1.02]"
+                  >
+                    <div class="mr-4 mt-1">
+                      <svg
+                        class="w-8 h-8 text-gray-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M13 6a2 2 1 11-4 0 2 2 0 014 0zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                          clip-rule="evenodd"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h2 class="text-xl font-semibold flex items-center">
+                        Datos y análisis
+                        <span
+                          class="ml-2 text-xs font-semibold px-2 py-1 rounded-full bg-purple-200 text-purple-700"
+                          >Plan Enterprise</span
+                        >
+                      </h2>
+                      <p class="text-gray-600 mt-2 text-sm">
+                        Acelera la consecución de objetivos con datos avanzados
+                        y un equipo dedicado de éxito del cliente para fomentar
+                        un aprendizaje eficaz.
+                      </p>
+                      <span
+                        class="text-blue-500 hover:underline mt-2 inline-block text-sm"
+                        >Obtener más información →</span
+                      >
+                    </div>
+                  </button>
+
+                  <button
+                    data-target="personalizable"
+                    class="w-full p-6 border rounded-lg shadow-md flex items-start text-left cursor-pointer transition-all duration-200 hover:scale-[1.02]"
+                  >
+                    <div class="mr-4 mt-1">
+                      <svg
+                        class="w-8 h-8 text-gray-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 2a8 8 0 100 16 8 8 0 000-16zM6 10a1 1 0 11-2 0 1 1 0 012 0zM14 10a1 1 0 11-2 0 1 1 0 012 0z"
+                          clip-rule="evenodd"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h2 class="text-xl font-semibold flex items-center">
+                        Contenido personalizable
+                        <span
+                          class="ml-2 text-xs font-semibold px-2 py-1 rounded-full bg-purple-200 text-purple-700"
+                          >Plan Enterprise</span
+                        >
+                      </h2>
+                      <p class="text-gray-600 mt-2 text-sm">
+                        Crea vías de aprendizaje personalizadas para los
+                        objetivos de tu equipo y organización o, incluso, vías
+                        con tus propios recursos y contenido.
+                      </p>
+                      <span
+                        class="text-blue-500 hover:underline mt-2 inline-block text-sm"
+                        >Obtener más información →</span
+                      >
+                    </div>
+                  </button>
+                </div>
+              </div>
+
+              <div class="lg:w-1/2 p-4">
+                <div
+                  id="content-area"
+                  class="bg-white rounded-lg shadow-xl overflow-hidden relative"
+                ></div>
+              </div>
+            </div>
+
+            <script>
+              // Contenedor donde se mostrará el contenido dinámico
+              const contentArea = document.getElementById("content-area");
+
+              // Datos de los contenidos a mostrar
+              const contents = {
+                practica: `
+      <div class="flex flex-col md:flex-row">
+        <div class="bg-gray-200 p-2 flex items-center justify-between border-b border-gray-300 w-full">
+          <div class="flex space-x-1.5 ml-1">
+            <span class="w-3 h-3 bg-red-500 rounded-full"></span>
+            <span class="w-3 h-3 bg-yellow-400 rounded-full"></span>
+            <span class="w-3 h-3 bg-green-500 rounded-full"></span>
+          </div>
+          <div class="flex-grow flex justify-center items-center">
+            <span class="text-xs text-gray-700 font-semibold">ingresoUsuario2.html</span>
+          </div>
+          <div class="w-12"></div>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row">
+        <div class="p-6 md:w-1/2 border-r border-gray-300">
+          <h2 class="text-lg font-semibold mb-2">Instrucciones</h2>
+          <p class="text-sm">Prácticas: Ingreso de usuario 2</p>
+          <p class="mt-4 text-sm">A partir del código HTML desarrollado en el ejercicio anterior, ahora debes crear la función <strong>mostrarTexto()</strong> que obtendrá el contenido de la etiqueta input y mostrará dicho contenido en un <strong>alert</strong>.</p>
+          <div class="border-l-4 border-yellow-500 pl-4 py-2 mt-4 text-sm bg-yellow-50 rounded-md">
+            <h3 class="font-semibold">IMPORTANTE:</h3>
+            <p>Si no puedes resolver el ejercicio, considera lo siguiente:</p>
+            <ol class="list-decimal list-inside mt-2 space-y-2">
+              <li class="pl-2">Aunque la solución que hayas escrito no tenga errores de código, aún así puede que no responda exactamente a la consigna. Verifica que el resultado que obtienes sea exacto con la consigna (con puntos, comas y acentos).</li>
+              <li class="pl-2">Si aún así no logras resolverlo (puede suceder), revisa la lección <strong>"Soluciones a los Ejercicios Prácticos del Día"</strong> que se encuentra casi al final de las lecciones de cada día.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="p-6 md:w-1/2 bg-gray-900 text-gray-300 font-mono text-sm relative">
+          <pre class="whitespace-pre-wrap">
+1 &lt;!DOCTYPE html&gt;
+2 &lt;html&gt;
+3 &lt;head&gt;
+4   &lt;title&gt;&lt;/title&gt;
+5 &lt;/head&gt;
+6 &lt;body&gt;
+7   &lt;button&gt;&lt;/button&gt;
+8   &lt;script&gt;
+9
+10 &lt;/script&gt;
+11 &lt;/body&gt;
+12 &lt;/html&gt;</pre>
+          <div class="absolute bottom-4 right-4 bg-gray-700 text-white px-4 py-2 rounded-full flex items-center space-x-2 cursor-pointer">
+            <span class="text-sm">Ejecutar pruebas</span>
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9 8V6.5a1 1 0 011-1h1a1 1 0 011 1V8h1.5a1 1 0 011 1v1a1 1 0 01-1 1H12v1.5a1 1 0 01-1 1h-1a1 1 0 01-1-1V11H6.5a1 1 0 01-1-1v-1a1 1 0 011-1H9z" clip-rule="evenodd" fill-rule="evenodd"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    `,
+                certificaciones: `
+      <div class="p-6">
+        <h2 class="text-lg font-semibold mb-2">Preparación para Certificaciones</h2>
+        <p class="text-sm text-gray-600">Este es el contenido para la preparación de certificaciones. Aquí podrías tener información sobre exámenes, guías de estudio y recursos.</p>
+      </div>
+    `,
+                datos: `
+      <div class="p-6">
+        <h2 class="text-lg font-semibold mb-2">Datos y Análisis</h2>
+        <p class="text-sm text-gray-600">Este es el contenido para la sección de datos y análisis. Detalla cómo el plan Enterprise ayuda a los equipos a acelerar sus objetivos.</p>
+      </div>
+    `,
+                personalizable: `
+      <div class="p-6">
+        <h2 class="text-lg font-semibold mb-2">Contenido Personalizable</h2>
+        <p class="text-sm text-gray-600">Este es el contenido para la sección de contenido personalizable. Aquí se explica cómo crear vías de aprendizaje a medida.</p>
+      </div>
+    `,
+              };
+
+              const buttons = document.querySelectorAll("[data-target]");
+
+              // Función para mostrar el contenido
+              const showContent = (target) => {
+                buttons.forEach((btn) => {
+                  btn.classList.remove("active-border");
+                });
+
+                const activeBtn = document.querySelector(
+                  `[data-target="${target}"]`
+                );
+                if (activeBtn) {
+                  activeBtn.classList.add("active-border");
+                }
+
+                contentArea.innerHTML = contents[target];
+              };
+
+              buttons.forEach((button) => {
+                button.addEventListener("click", (e) => {
+                  const target = e.currentTarget.dataset.target;
+                  showContent(target);
+                });
+              });
+
+              // Mostrar el contenido inicial al cargar la página
+              window.addEventListener("DOMContentLoaded", () => {
+                showContent("practica");
+              });
+            </script>
+          </div>
+        </section>
+
+        <section
+          class="flex flex-col md:flex-row items-center justify-center p-8 md:p-16 lg:p-24 w-[1314px]"
+        >
+          <div
+            class="md:w-1/2 p-4 md:p-8 flex flex-col items-center md:items-start text-center md:text-left"
+          >
+            <h3 class="text-3xl md:text-5xl font-extrabold text-[#29094C] mb-4">
+              IA para líderes empresariales
+            </h3>
+            <p class="text-lg md:text-xl text-gray-700 mb-6 max-w-md">
+              Crea un hábito de usar la IA para ti y tu equipo que te permita
+              desarrollar habilidades prácticas para ayudarte a liderar
+              eficazmente.
+            </p>
+            <a
+              href="#"
+              class="inline-flex items-center space-x-2 px-6 py-3 font-semibold rounded-full text-white bg-purple-700 hover:bg-purple-800 transition-colors duration-300"
+            >
+              <span>Comienza tu aprendizaje</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M4.293 15.707a1 1 0 010-1.414L8.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div
+            class="md:w-1/2 mt-8 md:mt-0 p-4 flex justify-center md:justify-end"
+          >
+            <img
+              src="https://cms-images.udemycdn.com/96883mtakkm8/32egVZ5YRgjxrz5mr45EwO/2328193d64d64dd0ab01b6019791da22/ai_for_business_leaders_photo__1_.png"
+              alt="IA para líderes empresariales"
+              class="max-w-xs md:max-w-full h-auto"
+            />
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="bg-oklch text-white font-sans">
+      <footer class="bg-oklch py-6 px-12 sm:px-16 w-full">
+        <div class="mx-auto">
+          <div
+            class="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-4 border-b border-[#3d3e42] mb-4 w-full"
+          >
+            <div class="mb-2 sm:mb-0 max-w-sm">
+              <h2 class="text-xl font-bold leading-tight">
+                Las principales empresas eligen a
+                <span class="text-[#a435f0]">Udemy Business</span> para
+                desarrollar sus habilidades profesionales más demandadas.
+              </h2>
+            </div>
+            <div class="flex items-center space-x-4 mt-2 sm:mt-0">
+              <img
+                src="https://www.udemy.com/staticx/udemy/images/v7/nasdaq-light-alt.svg"
+                alt="Nasdaq"
+                class="h-4 filter grayscale brightness-[200%]"
+              />
+              <img
+                src="https://www.udemy.com/staticx/udemy/images/v7/netapp-light-alt.svg"
+                alt="NetApp"
+                class="h-4 filter grayscale brightness-[200%]"
+              />
+              <img
+                src="https://www.udemy.com/staticx/udemy/images/v7/eventbrite-light-alt.svg"
+                alt="Eventbrite"
+                class="h-4 filter grayscale brightness-[200%]"
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-6 text-sm">
+            <div>
+              <h3 class="text-base font-bold mb-2">
+                Explorar habilidades y certificaciones destacadas
+              </h3>
+              <h4 class="font-bold text-white mb-1">
+                Carreras profesionales demandadas
+              </h4>
+              <ul class="space-y-1 text-sm text-[#cecece]">
+                <li>
+                  <a href="#" class="hover:underline">Científico de datos</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Desarrollador full stack</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Ingeniero de la nube</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Gestor de proyectos</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Desarrollador de videojuegos</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Todos los aceleradores para carreras profesionales</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="font-bold text-white mb-1">Desarrollo web</h4>
+              <ul class="space-y-1 text-sm text-[#cecece]">
+                <li><a href="#" class="hover:underline">Desarrollo web</a></li>
+                <li><a href="#" class="hover:underline">JavaScript</a></li>
+                <li><a href="#" class="hover:underline">React JS</a></li>
+                <li><a href="#" class="hover:underline">Angular</a></li>
+                <li><a href="#" class="hover:underline">Java</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="font-bold text-white mb-1">
+                Certificaciones de informática
+              </h4>
+              <ul class="space-y-1 text-sm text-[#cecece]">
+                <li><a href="#" class="hover:underline">Amazon AWS</a></li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >AWS Certified Cloud Practitioner</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >AZ-900: Microsoft Azure Fundamentals</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >AWS Certified Solutions Architect - Associate</a
+                  >
+                </li>
+                <li><a href="#" class="hover:underline">Kubernetes</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="font-bold text-white mb-1">Liderazgo</h4>
+              <ul class="space-y-1 text-sm text-[#cecece]">
+                <li><a href="#" class="hover:underline">Liderazgo</a></li>
+                <li>
+                  <a href="#" class="hover:underline">Habilidades de gestión</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Gestión de proyectos</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Productividad personal</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Inteligencia emocional</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-span-2 lg:col-span-1">
+              <h4 class="font-bold text-white mb-1">
+                Certificaciones por habilidad
+              </h4>
+              <ul class="space-y-1 text-sm text-[#cecece]">
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Certificación de ciberseguridad</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Certificación sobre gestión de proyectos</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Certificación sobre la nube</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Certificación sobre analíticas de datos</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Certificación sobre gestión de RR. HH.</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Ver todas las certificaciones</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="font-bold text-white mb-1">
+                Ciencias de la información
+              </h4>
+              <ul class="space-y-1 text-sm text-[#cecece]">
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Ciencias de la información</a
+                  >
+                </li>
+                <li><a href="#" class="hover:underline">Python</a></li>
+                <li>
+                  <a href="#" class="hover:underline">Aprendizaje automático</a>
+                </li>
+                <li><a href="#" class="hover:underline">ChatGPT</a></li>
+                <li>
+                  <a href="#" class="hover:underline">Aprendizaje profundo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="font-bold text-white mb-1">Comunicación</h4>
+              <ul class="space-y-1 text-sm text-[#cecece]">
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Habilidades de comunicación</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Habilidades de presentación</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Hablar en público</a>
+                </li>
+                <li><a href="#" class="hover:underline">Escritura</a></li>
+                <li><a href="#" class="hover:underline">PowerPoint</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="font-bold text-white mb-1">
+                Analítica e inteligencia empresarial
+              </h4>
+              <ul class="space-y-1 text-sm text-[#cecece]">
+                <li><a href="#" class="hover:underline">Microsoft Excel</a></li>
+                <li><a href="#" class="hover:underline">SQL</a></li>
+                <li>
+                  <a href="#" class="hover:underline">Microsoft Power BI</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Análisis de datos</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Análisis de negocios</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <footer class="bg-[#1c1d1f] text-white pt-12">
+      <section></section>
+      <div class="max-w-full mx-auto px-12">
+        <div
+          class="flex flex-col md:flex-row justify-between items-start gap-x-12 md:gap-x-24 mb-8"
+        >
+          <div class="flex flex-col gap-4">
+            <h4 class="text-lg font-bold">Acerca de</h4>
+            <div class="flex flex-col gap-2">
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >¿Quiénes somos?</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Empleo</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Ponte en contacto con nosotros</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Blog</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Inversores</a
+              >
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <h4 class="text-lg font-bold">Descubre Udemy</h4>
+            <div class="flex flex-col gap-2">
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Consigue la aplicación</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Enseña en Udemy</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Planes y precios</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Afiliado</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Ayuda y asistencia</a
+              >
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <h4 class="text-lg font-bold">Udemy for Business</h4>
+            <div class="flex flex-col gap-2">
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Udemy Business</a
+              >
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <h4 class="text-lg font-bold">Aspectos legales y accesibilidad</h4>
+            <div class="flex flex-col gap-2">
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Declaración de accesibilidad</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Política de Privacidad</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Mapa del sitio</a
+              >
+              <a
+                href="#"
+                class="text-sm text-white hover:text-[#cec0fc] transition-colors duration-200"
+                >Condiciones</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-[#3e4143] mt-8"></div>
+
+      <div class="max-w-7xl mx-auto px-6 py-6">
+        <div
+          class="flex flex-col md:flex-row items-center md:items-end justify-between gap-4"
+        >
+          <div class="flex flex-col md:flex-row items-center gap-2">
+            <img
+              src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg"
+              alt="Logo de Udemy"
+              class="h-8 md:h-6 w-auto"
+            />
+            <p class="text-xs text-[#a4a5a7] mt-2 md:mt-0">
+              © 2025 Udemy, Inc.
+            </p>
+          </div>
+          <div class="md:order-last">
+            <button
+              class="flex items-center gap-2 px-3 py-2 border border-white text-white text-sm font-semibold rounded-sm hover:bg-gray-700 transition-colors duration-200"
+            >
+              <span class="text-lg">🌐</span>
+              <span class="whitespace-nowrap">Español</span>
+            </button>
+          </div>
+
+          <a
+            href="#"
+            class="text-sm text-[#a4a5a7] whitespace-nowrap hover:underline transition-all duration-200"
+            >Configuración de cookies</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
